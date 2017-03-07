@@ -10,7 +10,7 @@
 
 std::string replace_space(std::string testStr)
 {// This function replaces spaces present in a string with "%20"
-    std::queue<char> newString;
+    std::queue<char> newString; // queue used for fun here - not optimal
     std::string modiString;
 
     for (auto c: testStr) {
